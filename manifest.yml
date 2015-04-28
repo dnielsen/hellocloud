@@ -1,0 +1,11 @@
+#--------------------------------------
+# change the `host` property to a
+# unique hostname on the domain you
+# are deploying to.
+#--------------------------------------
+
+applications:
+- name:    cf-node-hellocloud
+  host:    cf-node-hellocloud-dcn6
+  memory:  128M
+  build: nodejs_buildpack-cached-v1.2.0.zip
